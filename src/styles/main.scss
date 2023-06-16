@@ -2,6 +2,11 @@
 @import "fonts";
 @import "typography";
 
+@import "./blocks/section-title.scss";
+
 body {
   background: $c-gray;
+  margin: 0;
+  // padding: 0;
+  // box-sizing: border-box;
 }

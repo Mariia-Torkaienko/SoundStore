@@ -1,0 +1,115 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  color: #292929;
+}
+
+/* #region section-title */
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: -1.5px;
+  color: red;
+
+  @include onTablet {
+    font-size: 48px;
+  }
+
+  @include onDesktop {
+    font-size: 48px;
+  }
+}
+/* #endregion */
+
+/* #region header */
+.header {
+  box-sizing: border-box;
+  padding: 24px 20px 40px;
+  height: 100vh;
+  background-image: url(../images/image_main.jpg);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__icons {
+  display: flex;
+  gap: 24px;
+}
+
+.header__waves {
+  background-image: url(../images/sound-waves.png);
+  height: 57px;
+  width: 48px;
+  margin-bottom: 16px;
+  // background-repeat: no-repeat;
+}
+.header__title {
+  margin: 0;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+}
+/* #endregion */
+
+/* #region icon */
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+.icon--phone {
+  background-image: url(../images/icons/icon-phone.png);
+}
+.icon--menu {
+  background-image: url(../images/icons/burger-menu.png);
+}
+/* #endregion */
+// /* #region menu */
+// .menu {
+
+// }
+// /* #endregion */
+// /* #region main */
+// .main {
+
+// }
+// /* #endregion */
+// /* #region recomended */
+// .recomended {
+
+// }
+// /* #endregion */
+// /* #region categories */
+// .categories {
+
+// }
+// /* #endregion */
+// /* #region how-to-buy */
+// .how-to-buy {
+
+// }
+// /* #endregion */
+// /* #region contacts */
+// .contacts {
+
+// }
+// /* #endregion */
+// /* #region footer */
+// .footer {
+
+// }
+// /* #endregion */

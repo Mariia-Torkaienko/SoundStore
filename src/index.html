@@ -4,10 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
+    <script src="scripts/main.js" defer></script>
   </head>
+
   <body>
-    <h1>Hello Mate Academy</h1>
-    <script type="text/javascript" src="scripts/main.js"></script>
+    <header class="header">
+      <div class="header__top">
+        <a href="#">
+          <img src="./images/logo.png" alt="Bose">
+        </a>
+        <div class="header__icons">
+          <a href="#" class="icon icon--phone"></a>
+          <a href="#" class="icon icon--menu"></a>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="header__waves"></div>
+        <h1 class="header__title">
+          The world shades.
+          <br>
+          Your music shines.
+        </h1>
+
+      </div>
+    </header>
+
+<aside class="menu">
+  <div class="header__top">
+    <a href="#">
+      <img src="./images/logo.png" alt="Bose">
+    </a>
+    <div class="header__icons">
+      <a href="#" class="icon icon--menu"></a>
+    </div>
+  </div>
+</aside>
+
+    <main class="main">
+      <section class="recomended">
+        <h2 class="section-title">Recomended</h2>
+      </section>
+
+      <section class="categories" id="categories">
+        <h2 class="section-title">Browse Base products by category</h2>
+      </section>
+
+      <section class="how-to-buy" id="how-to-buy">
+        <h2 class="section-title">Why buy direct from Base</h2>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <h2 class="section-title">Contact us</h2>
+      </section>
+
+    </main>
+
+    <footer class="footer"></footer>
   </body>
 </html>
