@@ -18,7 +18,7 @@
     letter-spacing: 2px;
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       bottom: -8px;
       display: block;
@@ -30,9 +30,10 @@
       transform: scale(0);
       transform-origin: right;
     }
-      &:hover::after {
-        transform: scale(1);
-        transform-origin: left;
-      }
+
+    &:hover::after {
+      transform: scale(1);
+      transform-origin: left;
+    }
   }
 }
