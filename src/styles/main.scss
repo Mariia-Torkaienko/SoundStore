@@ -2,11 +2,14 @@
 @import "fonts";
 @import "typography";
 
-@import "./blocks/section-title.scss";
-
-body {
-  background: $c-gray;
-  margin: 0;
-  // padding: 0;
-  // box-sizing: border-box;
-}
+@import './blocks/page';
+@import './blocks/menu';
+@import './blocks/header';
+@import './blocks/icon';
+@import './blocks/top-bar';
+@import './blocks/nav';
+@import './blocks/section-title';
+@import './blocks/main';
+@import './blocks/product';
+@import './blocks/recommended';
+@import './blocks/container';

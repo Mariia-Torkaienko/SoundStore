@@ -6,12 +6,19 @@
 }
 
 @mixin onDesktop {
-  @media (min-width: 1024px) {
+  @media (min-width: $desktop-min-width) {
     @content;
   }
 }
 @mixin onTablet {
-  @media (min-width: 780px) {
+  @media (min-width: $tablet-min-width) {
     @content;
+  }
+}
+
+@mixin hover($property, $toValue) {
+  transition: #{$property} 0.3s;
+  &:hover {
+    #{$property}: $toValue;
   }
 }
