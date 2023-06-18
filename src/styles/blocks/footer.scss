@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(../images/Image_footer.jpg);
+  background-size: cover;
+  background-position: center;
+
+  @include onTablet {
+    height: 400px;
+  }
+}

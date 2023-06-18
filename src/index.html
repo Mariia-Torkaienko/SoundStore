@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>BOSE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
@@ -59,16 +59,16 @@
                 <a class="nav__link" href="#">Home</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="recommended">Recommended</a>
+                <a class="nav__link" href="#recommended">Recommended</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="categories">Categories</a>
+                <a class="nav__link" href="#categories">Categories</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="how-to-buy">How to buy</a>
+                <a class="nav__link" href="#how-to-buy">How to buy</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="contacts">Contacts</a>
+                <a class="nav__link" href="#contact-us">Contacts</a>
               </li>
             </ul>
           </nav>
@@ -122,6 +122,65 @@
           </section>
           <section class="categories" id="categories">
             <h2 class="section-title">Browse Base products by category</h2>
+            <div class="categories__wrapper">
+              <article class="category">
+                <div class="category__photos">
+                  <a href="#" class="category__link category__link--wide">
+                    <img
+                      src="./images/categories/Image-1.png"
+                      alt="earbuds"
+                      class="category__photo"
+                    >
+                  </a>
+                  <a href="#" class="category__link category__link--square">
+                    <img
+                      src="./images/categories/Image-2.png"
+                      alt="headphones"
+                      class="category__photo"
+                    >
+                  </a>
+                </div>
+                <h3 class="category__title">Headphones & earbuds</h3>
+              </article>
+              <article class="category">
+                <div class="category__photos">
+                  <a href="#" class="category__link category__link--wide">
+                    <img
+                      src="./images/categories/Image-3.png"
+                      alt="speakers"
+                      class="category__photo"
+                    >
+                  </a>
+                  <a href="#" class="category__link category__link--square">
+                    <img
+                      src="./images/categories/Image-4.png"
+                      alt="speakers"
+                      class="category__photo"
+                    >
+                  </a>
+                </div>
+                <h3 class="category__title">Speakers</h3>
+              </article>
+              <article class="category">
+                <div class="category__photos">
+                  <a href="#" class="category__link category__link--square">
+                    <img
+                      src="./images/categories/Image-5.png"
+                      alt="audio sunglasses"
+                      class="category__photo"
+                    >
+                  </a>
+                  <a href="#" class="category__link category__link--wide">
+                    <img
+                      src="./images/categories/Image-6.png" alt="audio-sunglasses"
+                      class="category__photo"
+                    >
+                  </a>
+                </div>
+                <h3 class="category__title">Audio sunglasses</h3>
+              </article>
+            </div>
+            <button class="button categories__button">View all</button>
           </section>
           <section class="how-to-buy" id="how-to-buy">
             <h2 class="section-title section-title--align--left how-to-buy__title">
@@ -139,8 +198,63 @@
               </p>
             </div>
           </section>
-          <section class="contacts" id="contacts">
+          <section class="contact-us" id="contact-us">
             <h2 class="section-title">Contact us</h2>
+
+            <div class="contact-us__content">
+
+              <div class="contact-us__form">
+                <form action="post" method="post" id="checkbox">
+                  <input
+                    name="name"
+                    type="text"
+                    id="name"
+                    class="contact-us__field"
+                    placeholder="Name"
+                    minlength="3"
+                    required
+                  >
+                  <input
+                    name="email"
+                    type="email"
+                    id="email"
+                    class="contact-us__field"
+                    placeholder="Email"
+                    minlength="10"
+                    required
+                  >
+                  <textarea
+                    name="message"
+                    id="message"
+                    class="contact-us__field contact-us__field--textarea"
+                    placeholder="Message"
+                    minlength="30"
+                 ></textarea>
+                  <button type="submit" class="button">Send</button>
+                </form>
+  
+              </div>
+              <div class="contact-us__info">
+                <div class="contact-us__info-title">Phone</div>
+                  <a href="tel:+1 234 555-55-55" class="contact-us__info-link">+1 234 555-55-55 </a>
+              </div>
+              <div class="contact-us__info">
+                <div class="contact-us__info-title">Email</div>
+                <a href="mailto:hello@miami.com" class="contact-us__info-link">
+                  hello@miami.com
+                </a>
+              </div>
+              <div class="contact-us__info">
+                <div class="contact-us__info-title">Address</div>
+                <a href="" class="contact-us__info-link">
+                  400 first ave.
+                  <br>
+                  suite 700
+                  <br>
+                  Minneapolis, MN 55401
+                </a>
+              </div>
+            </div>
           </section>
         </div>
       </div>
