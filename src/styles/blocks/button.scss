@@ -18,11 +18,7 @@
   transition: all 0.3s;
   
   &:hover {
-  background-color: $c-ivory;
-  color: $main-text-color;
-}
-
-
-  // margin-top: 136px;
-  // margin-bottom: 80px;
+    background-color: $c-ivory;
+    color: $main-text-color;
+  }
 }

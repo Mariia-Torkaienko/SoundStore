@@ -30,6 +30,7 @@
       grid-column: span 4;
     }
   }
+
   &--wide {
     @include onTablet {
       grid-column: span 4;
