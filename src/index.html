@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="shortcut icon"
+      href="images/icons/beftitle.svg"
+      type="image/x-icon"
+    >
     <title>BOSE</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -10,7 +15,6 @@
     <link rel="stylesheet" href="./styles/main.scss">
     <script src="scripts/main.js" defer></script>
   </head>
-
   <body class="page__body">
     <header class="header">
       <div class="container">
@@ -39,7 +43,6 @@
         </div>
       </div>
     </header>
-
     <aside class="page__menu menu" id="menu">
       <div class="container">
         <div class="top-bar menu__top">
@@ -81,7 +84,6 @@
         </div>
       </div>
     </aside>
-
     <main class="main">
       <div class="container">
         <div class="main__content">
@@ -200,11 +202,13 @@
           </section>
           <section class="contact-us" id="contact-us">
             <h2 class="section-title">Contact us</h2>
-
             <div class="contact-us__content">
-
               <div class="contact-us__form">
-                <form action="post" method="post" id="checkbox">
+                <form
+                  action="post"
+                  method="post"
+                  id="checkbox"
+                >
                   <input
                     name="name"
                     type="text"
@@ -230,36 +234,40 @@
                     placeholder="Message"
                     minlength="30"
                  ></textarea>
-                  <button type="submit" class="button">Send</button>
+                  <button type="submit" class="button">
+                    Send
+                  </button>
                 </form>
-  
               </div>
-              <div class="contact-us__info">
-                <div class="contact-us__info-title">Phone</div>
-                  <a href="tel:+1 234 555-55-55" class="contact-us__info-link">+1 234 555-55-55 </a>
-              </div>
-              <div class="contact-us__info">
-                <div class="contact-us__info-title">Email</div>
-                <a href="mailto:hello@miami.com" class="contact-us__info-link">
-                  hello@miami.com
-                </a>
-              </div>
-              <div class="contact-us__info">
-                <div class="contact-us__info-title">Address</div>
-                <a href="" class="contact-us__info-link">
-                  400 first ave.
-                  <br>
-                  suite 700
-                  <br>
-                  Minneapolis, MN 55401
-                </a>
+              <div class="contact-us__wrapper">
+                <div class="contact-us__info">
+                  <div class="contact-us__info-title">Phone</div>
+                  <a href="tel:+1 234 555-55-55" class="contact-us__info-link">
+                    +1 234 555-55-55
+                  </a>
+                </div>
+                <div class="contact-us__info">
+                  <div class="contact-us__info-title">Email</div>
+                  <a href="mailto:hello@miami.com" class="contact-us__info-link">
+                    hello@miami.com
+                  </a>
+                </div>
+                <div class="contact-us__info">
+                  <div class="contact-us__info-title">Address</div>
+                  <a href="#" class="contact-us__info-link">
+                    400 first ave.
+                    <br>
+                    suite 700
+                    <br>
+                    Minneapolis, MN 55401
+                  </a>
+                </div>
               </div>
             </div>
           </section>
         </div>
       </div>
     </main>
-
     <footer class="footer"></footer>
   </body>
 </html>
