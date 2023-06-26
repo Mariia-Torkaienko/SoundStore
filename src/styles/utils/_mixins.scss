@@ -20,8 +20,6 @@
   transition: #{$property} 0.3s;
   &:hover {
     #{$property}: $toValue;
-    // box-shadow: 0 13px 27px rgba(0, 83, 181, 0.46);
-    // background-color: rgba($color: rgba(254, 254, 254, 0.5), $alpha: 0.2);
   }
 }
 
