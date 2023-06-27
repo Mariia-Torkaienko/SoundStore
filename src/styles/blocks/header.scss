@@ -27,12 +27,15 @@
     margin: 0;
     font-style: italic;
     font-weight: 800;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 100%;
     letter-spacing: -1.5px;
 
     @include onTablet {
-      font-size: 48px;
+      font-size: 36px;
+    }
+    @include onDesktop {
+      font-size: 56px;
     }
   }
 
@@ -41,6 +44,40 @@
 
     @include onTablet {
       padding-bottom: 64px;
+    }
+  }
+
+  &__call {
+    position: relative;
+
+    @include onDesktop {
+      &::before {
+        content: '+1 234 555-55-55';
+        position: absolute;
+        top: 50%;
+        display: block;
+
+        width: max-content;
+        padding-right: 20px;
+        
+        font-size: 16px;
+        line-height: 14px;
+        color: $c-ivory;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        opacity: 0;
+        pointer-events: none;
+        transform: translate(-100%, -50%);
+        transition: all 0.9s;
+      }
+
+      &:hover::before {
+        opacity: 1;
+        pointer-events: all;
+        transition: all 0.3s;
+      }
     }
   }
 }
