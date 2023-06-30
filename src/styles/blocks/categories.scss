@@ -10,7 +10,9 @@
   }
 
   &__button {
-    margin: 0 auto;
+    margin: 0px auto;
+    margin-top: 36px;
+
     @include onTablet {
       max-width: 392px;
     }

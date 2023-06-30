@@ -8,6 +8,10 @@
   &__body {
     margin: 0;
     min-width: 320px;
+
+    &--menu-active {
+      overflow-y: hidden;
+    }
   }
 
   &__menu {
